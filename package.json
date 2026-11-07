@@ -1,0 +1,14 @@
+{
+  "name": "fair-play-chess-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Authoritative multiplayer chess room server for Fair Play Chess",
+  "type": "module",
+  "scripts": { "start": "node server.js", "check": "node --check server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
